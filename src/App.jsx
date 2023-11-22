@@ -1,4 +1,5 @@
 import './App.css';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -6,8 +7,8 @@ function App() {
           <header>
               <h1>Skelbimų tinklalapis</h1>
               <nav>
-                  <p>Pagr.</p>
-                  <a href="prisijungti.html">Prisijungti</a>
+                  <p>Pagrindinis</p>
+                  <Link to="prisijungti" relative="path">Prisijungti</Link>
               </nav>
           </header>
           <section id="articles" className="sections">

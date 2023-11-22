@@ -44,6 +44,9 @@ html {
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "a c" "b c";
 }
+.l-window h2 {
+  padding: 0 0 5px 0
+}
 .l-window form input {
   padding: 0;
   width: 95%;
