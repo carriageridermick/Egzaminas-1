@@ -8,10 +8,16 @@ header h1 {
     padding: 5px
 }
 header nav {
+    display: flex;
     padding: 5px
 }
 header nav a {
     padding: 5px
+}
+header nav p {
+    padding: 5px;
+    text-decoration: underline;
+    color: gray;
 }
 .line {
     display: grid;
@@ -25,4 +31,32 @@ article {
 html {
     background-color:#f8ebce;
     margin: 0 25% 0 25%
+}
+.l-window {
+    margin: 50px 25% 50px 25%;
+    padding: 10px;
+    background-color: #9f9f9f;
+}
+.l-window form {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "a c" "b c";
+}
+.l-window form input {
+    padding: 0;
+    width: 95%;
+}
+.l-window form label a {
+
+}
+.l-window form a {
+    grid-area: a;
+}
+.l-window form b {
+    grid-area: b;
+}
+.l-window form input {
+    grid-area: c
 }
