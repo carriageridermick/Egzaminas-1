@@ -1,6 +1,28 @@
-.sections {
-    display: grid
+* {
+    margin: 0;
+}
+header {
+    background: linear-gradient(#9f9f9f, #f8ebce);
+}
+header h1 {
+    padding: 5px
+}
+header nav {
+    padding: 5px
+}
+header nav a {
+    padding: 5px
+}
+.line {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 article {
-    background-color: #9f9f9f
+    background-color: #9f9f9f;
+    margin: 10px;
+    min-height: 300px
+}
+html {
+    background-color:#f8ebce;
+    margin: 0 25% 0 25%
 }
