@@ -10,6 +10,7 @@ function Prisijungti() {
                     <Link to="/" relative="path">Pagrindinis</Link>
                     <p>Prisijungti</p>
                     <Link to="/skelbimas" relative="path">Įkelti skelbimą</Link>
+                    <Link to="/sasajaadm" relative="path">Administ. Sąsaja</Link>
                 </nav>
             </header>
             <div class="l-window">

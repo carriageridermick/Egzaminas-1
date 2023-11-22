@@ -8,13 +8,14 @@ import Registruoti from './Registruoti';
 import Sasaja from './Sasaja';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import SasajaAdm from './SasajaAdm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter(
   [
     {
       path: "/",
-      element: <Pagr />
+      element:<Pagr />
     },
     {
       path: "/prisijungti",
@@ -31,6 +32,10 @@ const router = createBrowserRouter(
     {
       path: "/skelbimas",
       element: <Sasaja />
+    },
+    {
+      path: "/sasajaadm",
+      element: <SasajaAdm />
     }
   ]
 )

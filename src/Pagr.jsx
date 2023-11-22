@@ -10,6 +10,7 @@ function Pagr() {
                   <p>Pagrindinis</p>
                   <Link to="prisijungti" relative="path">Prisijungti</Link>
                   <Link to="/skelbimas" relative="path">Įkelti skelbimą</Link>
+                  <Link to="/sasajaadm" relative="path">Administ. Sąsaja</Link>
               </nav>
           </header>
           <section id="articles" className="sections">
