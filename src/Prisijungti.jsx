@@ -16,8 +16,8 @@ function Prisijungti() {
             <div class="l-window">
                 <h2>Vartotojo prisijungimo langas</h2>
                 <form>
-                    <div>Prisijunimo vardas: <input type="text"></input></div>
-                    <div>Jūsų slaptažodis: <input type="password"></input></div>
+                    <div>Prisijunimo vardas: <input type="text" required></input></div>
+                    <div>Jūsų slaptažodis: <input type="password" required></input></div>
                     <input type="submit" value="Toliau"></input>
                 </form>
             </div>

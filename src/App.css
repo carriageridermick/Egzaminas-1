@@ -41,8 +41,8 @@ html {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "a c" "b c";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "a d" "b d" "c d" ;
 }
 .l-window h2 {
   padding: 0 0 5px 0
@@ -51,14 +51,17 @@ html {
   padding: 0;
   width: 95%;
 }
-.l-window form a {
+.l-window form .a {
   grid-area: a;
 }
-.l-window form b {
+.l-window form .b {
   grid-area: b;
 }
-.l-window form input {
-  grid-area: c
+.l-window form .c {
+  grid-area: c;
+}
+.l-window form .d {
+  grid-area: d;
 }
 .l-adm {
   background-color: #b4b4b4
