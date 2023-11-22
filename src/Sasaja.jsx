@@ -21,7 +21,7 @@ function Sasaja() {
             <label>Skelbimo pavadinimas: </label><input type="text" required></input>
             <label>Kontaktai (tel. nr, el. paštas, t.t.): </label><input type="text" required></input>
             <label>Kaina: </label><input type="number" required></input>
-            <label>Ikelti nuotraukas: </label><input type="file" required></input>
+            <label>Ikelti nuotraukas: </label><input type="file"></input>
             <input class="submit" type="submit"></input>
         </form>
     </section>

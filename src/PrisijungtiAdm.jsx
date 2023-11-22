@@ -13,7 +13,7 @@ function PrisijungtiAdm() {
                     <Link to="/sasajaadm" relative="path">Administ. Sąsaja</Link>
                 </nav>
             </header>
-            <div class="l-window l-adm">
+            <div className="l-window l-adm">
                 <h2>Administratoriaus prisijungimo langas</h2>
                 <form>
                     <div>Prisijunimo vardas: <input type="text" required></input></div>

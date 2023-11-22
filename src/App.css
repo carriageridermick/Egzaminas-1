@@ -95,3 +95,18 @@ html {
 .red {
   color: red;
 }
+.articles {
+  padding: 10px
+}
+
+@media (max-width: 1000px) {
+  .ikelimas {
+    margin: 50px 0% 50px 0%;
+    padding: 10px;
+    background-color: #9f9f9f;
+  }
+  html {
+    background-color:#f8ebce;
+    margin: 0 5% 0 5%
+  }
+}

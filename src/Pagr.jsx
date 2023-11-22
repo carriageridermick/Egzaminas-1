@@ -1,7 +1,13 @@
 import './App.css';
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 function Pagr() {
+    const [skelbimusarasas, skelbimaiK] = useState([
+        'Dviratis',
+        'Dziovintuvas',
+        'Dirva',
+    ]);
   return (
       <>
           <header>
@@ -13,18 +19,13 @@ function Pagr() {
                   <Link to="/sasajaadm" relative="path">Administ. Sąsaja</Link>
               </nav>
           </header>
-          <section id="articles" className="sections">
-              <div className="line">
-                  <article>Skelb. 1</article>
-                  <article>Skelb. 2</article>
-                  <article>Skelb. 3</article>
-              </div>
-              <div className="line">
-                  <article>Skelb. 1</article>
-                  <article>Skelb. 2</article>
-                  <article>Skelb. 3</article>
-              </div>
-          </section>
+          {skelbimusarasas.map((skelbimai, index) => (
+                    <article className="articles" key={index}>
+                    <p>Skelb. {index + 1}</p>
+                    <p>{skelbimai}</p><br></br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sint repellat veniam explicabo, commodi amet quo omnis similique sunt aliquam perferendis iste provident est fuga soluta unde! Modi inventore rerum eligendi beatae esse, sit corporis fugit illo libero ratione commodi nemo tenetur quisquam quam enim laborum magnam a animi minima.</p>
+                    </article>
+        ))}
       </>
   );
 }
