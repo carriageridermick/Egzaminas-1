@@ -1,7 +1,7 @@
 import './App.css';
 import { Link } from "react-router-dom";
 
-function App() {
+function Pagr() {
   return (
       <>
           <header>
@@ -9,6 +9,7 @@ function App() {
               <nav>
                   <p>Pagrindinis</p>
                   <Link to="prisijungti" relative="path">Prisijungti</Link>
+                  <Link to="/skelbimas" relative="path">Įkelti skelbimą</Link>
               </nav>
           </header>
           <section id="articles" className="sections">
@@ -27,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default Pagr;

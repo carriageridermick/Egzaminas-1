@@ -51,9 +51,6 @@ html {
   padding: 0;
   width: 95%;
 }
-.l-window form label a {
-
-}
 .l-window form a {
   grid-area: a;
 }
@@ -62,4 +59,23 @@ html {
 }
 .l-window form input {
   grid-area: c
+}
+.l-adm {
+  background-color: #b4b4b4
+}
+.adminliwindow {
+  margin: 100px 0 0 0;
+  text-align: center;
+}
+.register {
+  padding: 5px;
+}
+.l-reg {
+  background-color: #b4b4b4;
+  margin: 50px 10% 0 10%;
+}
+.ikelimas {
+  margin: 50px 10% 50px 10%;
+  padding: 10px;
+  background-color: #9f9f9f;
 }

@@ -1,7 +1,7 @@
 import './App.css';
 import { Link } from "react-router-dom";
 
-function Prisijungti() {
+function PrisijungtiAdm() {
   return (
       <>
             <header>
@@ -12,23 +12,19 @@ function Prisijungti() {
                     <Link to="/skelbimas" relative="path">Įkelti skelbimą</Link>
                 </nav>
             </header>
-            <div class="l-window">
-                <h2>Vartotojo prisijungimo langas</h2>
+            <div class="l-window l-adm">
+                <h2>Administratoriaus prisijungimo langas</h2>
                 <form>
                     <div>Prisijunimo vardas: <input type="text"></input></div>
                     <div>Jūsų slaptažodis: <input type="password"></input></div>
                     <input type="submit" value="Toliau"></input>
                 </form>
             </div>
-            <div class="l-window">
-                <h2>Neturite paskyros?</h2>
-                <Link className='register' to="/registruoti" relative="path">Registruotis</Link>
-            </div>
             <footer className='adminliwindow'>
-                <Link to="/prisijungtiadm" relative="path">Administratoriaus prisijungimas</Link>
+                <Link to="/prisijungti" relative="path">Grįžti</Link>
             </footer>
       </>
   );
 }
 
-export default Prisijungti;
+export default PrisijungtiAdm;
